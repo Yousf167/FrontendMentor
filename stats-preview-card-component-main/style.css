@@ -1,0 +1,45 @@
+:root{
+      --overlay: rgba(102, 21, 159, 0.615);
+      --insights: #bb6cea;
+      --border-radius: 10px
+}
+.background{
+      background-color: #0a0c1b;
+}
+.card-background{
+      background-color: #1c1938;
+      min-height: 500px;
+      border-radius: var(--border-radius);
+}
+
+.overlay-container {
+  background: 
+    linear-gradient(var(--overlay), var(--overlay)),
+    url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+span{
+      color: var(--insights);
+}
+
+p{
+      
+}
+.stats{
+      font-size: 1.5rem;
+      font-weight: bolder;
+}
+
+
+@media (max-width: 991px){
+      .overlay-container{
+            border-radius: 0;
+            border-top-left-radius: var(--border-radius);
+            border-top-right-radius: var(--border-radius);
+      }
+}
