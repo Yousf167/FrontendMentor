@@ -15,7 +15,7 @@
 .overlay-container {
   background: 
     linear-gradient(var(--overlay), var(--overlay)),
-    url('/stats-preview-card-component-main/images/image-header-desktop.jpg');
+    url('stats-preview-card-component-main/images/image-header-desktop.jpg');
   background-size: cover;
   background-position: center;
   min-height: 400px;
